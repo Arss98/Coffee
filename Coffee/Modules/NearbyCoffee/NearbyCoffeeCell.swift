@@ -69,6 +69,8 @@ private extension NearbyCoffeeCell {
             make.top.equalToSuperview().offset(4)
             make.leading.trailing.equalToSuperview().inset(13)
             make.bottom.equalToSuperview().inset(4)
+            make.height.equalTo(81)
+            make.width.equalTo(391)
         }
         
         coffeeShopName.snp.makeConstraints { make in
