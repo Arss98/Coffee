@@ -7,23 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		656197A72B728CB500741AF3 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656197A62B728CB500741AF3 /* PaymentViewController.swift */; };
+		656197AB2B728CDD00741AF3 /* PaymentInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656197AA2B728CDD00741AF3 /* PaymentInteractor.swift */; };
+		656197AD2B728CF200741AF3 /* PaymentPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656197AC2B728CF200741AF3 /* PaymentPresenter.swift */; };
+		656197AF2B728D2300741AF3 /* PeymentRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656197AE2B728D2300741AF3 /* PeymentRouter.swift */; };
+		656197B22B728D3F00741AF3 /* PaymentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656197B12B728D3F00741AF3 /* PaymentProtocol.swift */; };
+		656197B42B728D6700741AF3 /* PaymentModuleBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656197B32B728D6700741AF3 /* PaymentModuleBuild.swift */; };
+		656197B62B729F8F00741AF3 /* CustomPaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656197B52B729F8F00741AF3 /* CustomPaymentCell.swift */; };
+		657356972B712C4C0014BEA9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356962B712C4C0014BEA9 /* MapViewController.swift */; };
+		657356992B712C640014BEA9 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356982B712C640014BEA9 /* MapPresenter.swift */; };
+		6573569B2B712C760014BEA9 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573569A2B712C760014BEA9 /* MapInteractor.swift */; };
+		6573569D2B712C860014BEA9 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573569C2B712C860014BEA9 /* MapRouter.swift */; };
+		6573569F2B712CA30014BEA9 /* MapProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6573569E2B712CA30014BEA9 /* MapProtocol.swift */; };
+		657356A12B712CB40014BEA9 /* MapModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356A02B712CB40014BEA9 /* MapModuleBuilder.swift */; };
+		657356A42B71304A0014BEA9 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356A32B71304A0014BEA9 /* MenuViewController.swift */; };
+		657356A62B71308A0014BEA9 /* MenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356A52B71308A0014BEA9 /* MenuPresenter.swift */; };
+		657356A82B7130AB0014BEA9 /* MenuInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356A72B7130AB0014BEA9 /* MenuInteractor.swift */; };
+		657356AA2B71311C0014BEA9 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356A92B71311C0014BEA9 /* MenuRouter.swift */; };
+		657356AC2B7131430014BEA9 /* MenuProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356AB2B7131430014BEA9 /* MenuProtocol.swift */; };
+		657356AE2B71316E0014BEA9 /* MenuModuleBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356AD2B71316E0014BEA9 /* MenuModuleBuild.swift */; };
+		657356B22B7151480014BEA9 /* backgroundCoffeeIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356B12B7151480014BEA9 /* backgroundCoffeeIconView.swift */; };
+		657356B42B7160770014BEA9 /* MapObjectTapListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356B32B7160770014BEA9 /* MapObjectTapListener.swift */; };
+		657356B62B71711E0014BEA9 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356B52B71711E0014BEA9 /* CustomCollectionCell.swift */; };
 		6591D48B2B6D5F2200123125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D48A2B6D5F2200123125 /* AppDelegate.swift */; };
 		6591D48D2B6D5F2200123125 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D48C2B6D5F2200123125 /* SceneDelegate.swift */; };
-		6591D48F2B6D5F2200123125 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D48E2B6D5F2200123125 /* ViewController.swift */; };
-		6591D4922B6D5F2200123125 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6591D4902B6D5F2200123125 /* Main.storyboard */; };
 		6591D4942B6D5F2300123125 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6591D4932B6D5F2300123125 /* Assets.xcassets */; };
 		6591D4972B6D5F2300123125 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6591D4952B6D5F2300123125 /* LaunchScreen.storyboard */; };
+		6591D4AE2B6D7A6300123125 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4AD2B6D7A6300123125 /* LoginInteractor.swift */; };
+		6591D4B02B6D7A7200123125 /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4AF2B6D7A7200123125 /* LoginPresenter.swift */; };
+		6591D4B22B6D7A8300123125 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4B12B6D7A8300123125 /* LoginRouter.swift */; };
+		6591D4B52B6D7AAC00123125 /* LoginModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4B42B6D7AAC00123125 /* LoginModuleBuilder.swift */; };
+		6591D4B72B6D7AC000123125 /* LoginProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4B62B6D7AC000123125 /* LoginProtocol.swift */; };
+		6591D4BC2B6E531100123125 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4BB2B6E531100123125 /* CustomTextField.swift */; };
+		6591D4BE2B6E598000123125 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4BD2B6E598000123125 /* LoginViewController.swift */; };
+		6591D4C02B6E5D9F00123125 /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4BF2B6E5D9F00123125 /* Consts.swift */; };
+		6591D4C52B6EAC6300123125 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4C42B6EAC6300123125 /* RegisterViewController.swift */; };
+		6591D4C72B6EAC7300123125 /* RegisterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4C62B6EAC7300123125 /* RegisterProtocol.swift */; };
+		6591D4C92B6EAC8500123125 /* RegisterModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4C82B6EAC8500123125 /* RegisterModuleBuilder.swift */; };
+		6591D4CB2B6EAC9300123125 /* RegisterRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4CA2B6EAC9300123125 /* RegisterRouter.swift */; };
+		6591D4CD2B6EACA600123125 /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4CC2B6EACA600123125 /* RegisterPresenter.swift */; };
+		6591D4CF2B6EACBF00123125 /* RegisterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4CE2B6EACBF00123125 /* RegisterInteractor.swift */; };
+		6591D4D12B6EBBF400123125 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4D02B6EBBF400123125 /* CustomButton.swift */; };
+		6591D4D32B6EBC0800123125 /* CustomFilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4D22B6EBC0800123125 /* CustomFilledButton.swift */; };
+		6591D4D72B6ED03F00123125 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4D62B6ED03F00123125 /* LocationModel.swift */; };
+		6591D4D92B6ED0D500123125 /* CoffeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4D82B6ED0D500123125 /* CoffeeModel.swift */; };
+		6591D4DE2B6FC74100123125 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4DD2B6FC74100123125 /* ApiService.swift */; };
+		6591D4E02B6FC76500123125 /* ApiServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4DF2B6FC76500123125 /* ApiServiceProtocol.swift */; };
+		6591D4E22B6FD4C600123125 /* TokenResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4E12B6FD4C600123125 /* TokenResponse.swift */; };
+		6591D4E62B6FD63600123125 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4E52B6FD63600123125 /* LocalStorage.swift */; };
+		6591D4E92B6FD6E700123125 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4E82B6FD6E700123125 /* Optional+Extension.swift */; };
+		6591D4EC2B700CC600123125 /* NearbyCoffeeModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4EB2B700CC600123125 /* NearbyCoffeeModuleBuilder.swift */; };
+		6591D4EE2B700CD600123125 /* NearbyCoffeeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4ED2B700CD600123125 /* NearbyCoffeeProtocol.swift */; };
+		6591D4F02B700CE500123125 /* NearbyCoffeeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4EF2B700CE500123125 /* NearbyCoffeeRouter.swift */; };
+		6591D4F22B700CF200123125 /* NearbyCoffeePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4F12B700CF200123125 /* NearbyCoffeePresenter.swift */; };
+		6591D4F42B700CFE00123125 /* NearbyCoffeeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4F32B700CFE00123125 /* NearbyCoffeeInteractor.swift */; };
+		6591D4F62B700D0C00123125 /* NearbyCoffeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4F52B700D0C00123125 /* NearbyCoffeeViewController.swift */; };
+		6591D4F82B701CC100123125 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4F72B701CC100123125 /* ViewController+Extension.swift */; };
+		6591D4FA2B70BD5700123125 /* NearbyCoffeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4F92B70BD5700123125 /* NearbyCoffeeCell.swift */; };
+		6591D4FF2B71101B00123125 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D4FE2B71101B00123125 /* LocationManager.swift */; };
+		B2520AF80E30E7BC187B24B1 /* Pods_Coffee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFA0F8BE96547E842BB000 /* Pods_Coffee.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B22A1F35FC6CC061A4B0059 /* Pods-Coffee.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.debug.xcconfig"; path = "Target Support Files/Pods-Coffee/Pods-Coffee.debug.xcconfig"; sourceTree = "<group>"; };
+		656197A62B728CB500741AF3 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		656197AA2B728CDD00741AF3 /* PaymentInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInteractor.swift; sourceTree = "<group>"; };
+		656197AC2B728CF200741AF3 /* PaymentPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentPresenter.swift; sourceTree = "<group>"; };
+		656197AE2B728D2300741AF3 /* PeymentRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeymentRouter.swift; sourceTree = "<group>"; };
+		656197B12B728D3F00741AF3 /* PaymentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentProtocol.swift; sourceTree = "<group>"; };
+		656197B32B728D6700741AF3 /* PaymentModuleBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModuleBuild.swift; sourceTree = "<group>"; };
+		656197B52B729F8F00741AF3 /* CustomPaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPaymentCell.swift; sourceTree = "<group>"; };
+		657356962B712C4C0014BEA9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		657356982B712C640014BEA9 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		6573569A2B712C760014BEA9 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		6573569C2B712C860014BEA9 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		6573569E2B712CA30014BEA9 /* MapProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProtocol.swift; sourceTree = "<group>"; };
+		657356A02B712CB40014BEA9 /* MapModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapModuleBuilder.swift; sourceTree = "<group>"; };
+		657356A32B71304A0014BEA9 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		657356A52B71308A0014BEA9 /* MenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuPresenter.swift; sourceTree = "<group>"; };
+		657356A72B7130AB0014BEA9 /* MenuInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuInteractor.swift; sourceTree = "<group>"; };
+		657356A92B71311C0014BEA9 /* MenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
+		657356AB2B7131430014BEA9 /* MenuProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProtocol.swift; sourceTree = "<group>"; };
+		657356AD2B71316E0014BEA9 /* MenuModuleBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModuleBuild.swift; sourceTree = "<group>"; };
+		657356B12B7151480014BEA9 /* backgroundCoffeeIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundCoffeeIconView.swift; sourceTree = "<group>"; };
+		657356B32B7160770014BEA9 /* MapObjectTapListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapObjectTapListener.swift; sourceTree = "<group>"; };
+		657356B52B71711E0014BEA9 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
 		6591D4872B6D5F2200123125 /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6591D48A2B6D5F2200123125 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6591D48C2B6D5F2200123125 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6591D48E2B6D5F2200123125 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6591D4912B6D5F2200123125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6591D4932B6D5F2300123125 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6591D4962B6D5F2300123125 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6591D4982B6D5F2300123125 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6591D4AD2B6D7A6300123125 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		6591D4AF2B6D7A7200123125 /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		6591D4B12B6D7A8300123125 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		6591D4B42B6D7AAC00123125 /* LoginModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModuleBuilder.swift; sourceTree = "<group>"; };
+		6591D4B62B6D7AC000123125 /* LoginProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginProtocol.swift; sourceTree = "<group>"; };
+		6591D4BB2B6E531100123125 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		6591D4BD2B6E598000123125 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6591D4BF2B6E5D9F00123125 /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		6591D4C42B6EAC6300123125 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6591D4C62B6EAC7300123125 /* RegisterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterProtocol.swift; sourceTree = "<group>"; };
+		6591D4C82B6EAC8500123125 /* RegisterModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterModuleBuilder.swift; sourceTree = "<group>"; };
+		6591D4CA2B6EAC9300123125 /* RegisterRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRouter.swift; sourceTree = "<group>"; };
+		6591D4CC2B6EACA600123125 /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
+		6591D4CE2B6EACBF00123125 /* RegisterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterInteractor.swift; sourceTree = "<group>"; };
+		6591D4D02B6EBBF400123125 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		6591D4D22B6EBC0800123125 /* CustomFilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFilledButton.swift; sourceTree = "<group>"; };
+		6591D4D62B6ED03F00123125 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		6591D4D82B6ED0D500123125 /* CoffeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeModel.swift; sourceTree = "<group>"; };
+		6591D4DD2B6FC74100123125 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		6591D4DF2B6FC76500123125 /* ApiServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiServiceProtocol.swift; sourceTree = "<group>"; };
+		6591D4E12B6FD4C600123125 /* TokenResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenResponse.swift; sourceTree = "<group>"; };
+		6591D4E52B6FD63600123125 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		6591D4E82B6FD6E700123125 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		6591D4EB2B700CC600123125 /* NearbyCoffeeModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCoffeeModuleBuilder.swift; sourceTree = "<group>"; };
+		6591D4ED2B700CD600123125 /* NearbyCoffeeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCoffeeProtocol.swift; sourceTree = "<group>"; };
+		6591D4EF2B700CE500123125 /* NearbyCoffeeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCoffeeRouter.swift; sourceTree = "<group>"; };
+		6591D4F12B700CF200123125 /* NearbyCoffeePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCoffeePresenter.swift; sourceTree = "<group>"; };
+		6591D4F32B700CFE00123125 /* NearbyCoffeeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCoffeeInteractor.swift; sourceTree = "<group>"; };
+		6591D4F52B700D0C00123125 /* NearbyCoffeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCoffeeViewController.swift; sourceTree = "<group>"; };
+		6591D4F72B701CC100123125 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		6591D4F92B70BD5700123125 /* NearbyCoffeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCoffeeCell.swift; sourceTree = "<group>"; };
+		6591D4FE2B71101B00123125 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		6FB030EB3D8799BEC30FBD3A /* Pods-Coffee.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coffee.release.xcconfig"; path = "Target Support Files/Pods-Coffee/Pods-Coffee.release.xcconfig"; sourceTree = "<group>"; };
+		A1EFA0F8BE96547E842BB000 /* Pods_Coffee.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coffee.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +139,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2520AF80E30E7BC187B24B1 /* Pods_Coffee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1785C06A94F6B9F16CAA4672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFA0F8BE96547E842BB000 /* Pods_Coffee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42D13F3C7345A41B3D4821A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B22A1F35FC6CC061A4B0059 /* Pods-Coffee.debug.xcconfig */,
+				6FB030EB3D8799BEC30FBD3A /* Pods-Coffee.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		656197A52B728C8B00741AF3 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				656197A62B728CB500741AF3 /* PaymentViewController.swift */,
+				656197AA2B728CDD00741AF3 /* PaymentInteractor.swift */,
+				656197AC2B728CF200741AF3 /* PaymentPresenter.swift */,
+				656197AE2B728D2300741AF3 /* PeymentRouter.swift */,
+				656197B12B728D3F00741AF3 /* PaymentProtocol.swift */,
+				656197B32B728D6700741AF3 /* PaymentModuleBuild.swift */,
+				656197B52B729F8F00741AF3 /* CustomPaymentCell.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		657356952B712C060014BEA9 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				657356962B712C4C0014BEA9 /* MapViewController.swift */,
+				657356982B712C640014BEA9 /* MapPresenter.swift */,
+				6573569A2B712C760014BEA9 /* MapInteractor.swift */,
+				6573569C2B712C860014BEA9 /* MapRouter.swift */,
+				6573569E2B712CA30014BEA9 /* MapProtocol.swift */,
+				657356A02B712CB40014BEA9 /* MapModuleBuilder.swift */,
+				657356B32B7160770014BEA9 /* MapObjectTapListener.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		657356A22B7130340014BEA9 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				657356A32B71304A0014BEA9 /* MenuViewController.swift */,
+				657356A52B71308A0014BEA9 /* MenuPresenter.swift */,
+				657356A72B7130AB0014BEA9 /* MenuInteractor.swift */,
+				657356A92B71311C0014BEA9 /* MenuRouter.swift */,
+				657356AB2B7131430014BEA9 /* MenuProtocol.swift */,
+				657356AD2B71316E0014BEA9 /* MenuModuleBuild.swift */,
+				657356B52B71711E0014BEA9 /* CustomCollectionCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
 		6591D47E2B6D5F2200123125 = {
 			isa = PBXGroup;
 			children = (
 				6591D4892B6D5F2200123125 /* Coffee */,
 				6591D4882B6D5F2200123125 /* Products */,
+				42D13F3C7345A41B3D4821A9 /* Pods */,
+				1785C06A94F6B9F16CAA4672 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +226,161 @@
 		6591D4892B6D5F2200123125 /* Coffee */ = {
 			isa = PBXGroup;
 			children = (
+				6591D49E2B6D5F8800123125 /* App */,
+				6591D4E32B6FD5DA00123125 /* Service */,
+				6591D4D52B6ECFA100123125 /* Model */,
+				6591D4A12B6D5FBC00123125 /* Modules */,
+				6591D4A02B6D5FAE00123125 /* Helpers */,
+				6591D4B82B6E2EED00123125 /* UIComponents */,
+				6591D49F2B6D5F9200123125 /* Resources */,
+			);
+			path = Coffee;
+			sourceTree = "<group>";
+		};
+		6591D49E2B6D5F8800123125 /* App */ = {
+			isa = PBXGroup;
+			children = (
 				6591D48A2B6D5F2200123125 /* AppDelegate.swift */,
 				6591D48C2B6D5F2200123125 /* SceneDelegate.swift */,
-				6591D48E2B6D5F2200123125 /* ViewController.swift */,
-				6591D4902B6D5F2200123125 /* Main.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		6591D49F2B6D5F9200123125 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				6591D4932B6D5F2300123125 /* Assets.xcassets */,
 				6591D4952B6D5F2300123125 /* LaunchScreen.storyboard */,
 				6591D4982B6D5F2300123125 /* Info.plist */,
 			);
-			path = Coffee;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6591D4A02B6D5FAE00123125 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4E72B6FD6B400123125 /* Extension */,
+				6591D4BF2B6E5D9F00123125 /* Consts.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		6591D4A12B6D5FBC00123125 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				656197A52B728C8B00741AF3 /* Payment */,
+				657356A22B7130340014BEA9 /* Menu */,
+				657356952B712C060014BEA9 /* Map */,
+				6591D4EA2B700C7A00123125 /* NearbyCoffee */,
+				6591D4C32B6EAC4100123125 /* Register */,
+				6591D4A22B6D5FC900123125 /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6591D4A22B6D5FC900123125 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4AD2B6D7A6300123125 /* LoginInteractor.swift */,
+				6591D4AF2B6D7A7200123125 /* LoginPresenter.swift */,
+				6591D4B12B6D7A8300123125 /* LoginRouter.swift */,
+				6591D4B42B6D7AAC00123125 /* LoginModuleBuilder.swift */,
+				6591D4B62B6D7AC000123125 /* LoginProtocol.swift */,
+				6591D4BD2B6E598000123125 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6591D4B82B6E2EED00123125 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4BB2B6E531100123125 /* CustomTextField.swift */,
+				6591D4D02B6EBBF400123125 /* CustomButton.swift */,
+				6591D4D22B6EBC0800123125 /* CustomFilledButton.swift */,
+				657356B12B7151480014BEA9 /* backgroundCoffeeIconView.swift */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		6591D4C32B6EAC4100123125 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4C42B6EAC6300123125 /* RegisterViewController.swift */,
+				6591D4CC2B6EACA600123125 /* RegisterPresenter.swift */,
+				6591D4CE2B6EACBF00123125 /* RegisterInteractor.swift */,
+				6591D4CA2B6EAC9300123125 /* RegisterRouter.swift */,
+				6591D4C62B6EAC7300123125 /* RegisterProtocol.swift */,
+				6591D4C82B6EAC8500123125 /* RegisterModuleBuilder.swift */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		6591D4D42B6ECF8B00123125 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4DD2B6FC74100123125 /* ApiService.swift */,
+				6591D4DF2B6FC76500123125 /* ApiServiceProtocol.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		6591D4D52B6ECFA100123125 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4D62B6ED03F00123125 /* LocationModel.swift */,
+				6591D4D82B6ED0D500123125 /* CoffeeModel.swift */,
+				6591D4E12B6FD4C600123125 /* TokenResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6591D4E32B6FD5DA00123125 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4FD2B710FFF00123125 /* MapManager */,
+				6591D4E42B6FD5F900123125 /* LocalStorage */,
+				6591D4D42B6ECF8B00123125 /* Api */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6591D4E42B6FD5F900123125 /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4E52B6FD63600123125 /* LocalStorage.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		6591D4E72B6FD6B400123125 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4E82B6FD6E700123125 /* Optional+Extension.swift */,
+				6591D4F72B701CC100123125 /* ViewController+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		6591D4EA2B700C7A00123125 /* NearbyCoffee */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4EB2B700CC600123125 /* NearbyCoffeeModuleBuilder.swift */,
+				6591D4ED2B700CD600123125 /* NearbyCoffeeProtocol.swift */,
+				6591D4EF2B700CE500123125 /* NearbyCoffeeRouter.swift */,
+				6591D4F12B700CF200123125 /* NearbyCoffeePresenter.swift */,
+				6591D4F32B700CFE00123125 /* NearbyCoffeeInteractor.swift */,
+				6591D4F52B700D0C00123125 /* NearbyCoffeeViewController.swift */,
+				6591D4F92B70BD5700123125 /* NearbyCoffeeCell.swift */,
+			);
+			path = NearbyCoffee;
+			sourceTree = "<group>";
+		};
+		6591D4FD2B710FFF00123125 /* MapManager */ = {
+			isa = PBXGroup;
+			children = (
+				6591D4FE2B71101B00123125 /* LocationManager.swift */,
+			);
+			path = MapManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +390,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6591D49B2B6D5F2300123125 /* Build configuration list for PBXNativeTarget "Coffee" */;
 			buildPhases = (
+				89BA79BC6B9151B5222D580B /* [CP] Check Pods Manifest.lock */,
 				6591D4832B6D5F2200123125 /* Sources */,
 				6591D4842B6D5F2200123125 /* Frameworks */,
 				6591D4852B6D5F2200123125 /* Resources */,
+				AA44C5F440C1475991E02486 /* [CP] Embed Pods Frameworks */,
+				073D6C25E8C6FDF6CD2CEC08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,34 +446,137 @@
 			files = (
 				6591D4972B6D5F2300123125 /* LaunchScreen.storyboard in Resources */,
 				6591D4942B6D5F2300123125 /* Assets.xcassets in Resources */,
-				6591D4922B6D5F2200123125 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		073D6C25E8C6FDF6CD2CEC08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89BA79BC6B9151B5222D580B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coffee-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA44C5F440C1475991E02486 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coffee/Pods-Coffee-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6591D4832B6D5F2200123125 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6591D48F2B6D5F2200123125 /* ViewController.swift in Sources */,
+				6591D4F82B701CC100123125 /* ViewController+Extension.swift in Sources */,
+				657356A82B7130AB0014BEA9 /* MenuInteractor.swift in Sources */,
+				6591D4C72B6EAC7300123125 /* RegisterProtocol.swift in Sources */,
+				657356AE2B71316E0014BEA9 /* MenuModuleBuild.swift in Sources */,
+				6591D4D92B6ED0D500123125 /* CoffeeModel.swift in Sources */,
+				6591D4EC2B700CC600123125 /* NearbyCoffeeModuleBuilder.swift in Sources */,
+				657356A12B712CB40014BEA9 /* MapModuleBuilder.swift in Sources */,
+				6591D4BE2B6E598000123125 /* LoginViewController.swift in Sources */,
+				6591D4C52B6EAC6300123125 /* RegisterViewController.swift in Sources */,
+				6591D4E02B6FC76500123125 /* ApiServiceProtocol.swift in Sources */,
+				6573569D2B712C860014BEA9 /* MapRouter.swift in Sources */,
+				656197B62B729F8F00741AF3 /* CustomPaymentCell.swift in Sources */,
+				6591D4CF2B6EACBF00123125 /* RegisterInteractor.swift in Sources */,
+				6591D4DE2B6FC74100123125 /* ApiService.swift in Sources */,
+				6591D4EE2B700CD600123125 /* NearbyCoffeeProtocol.swift in Sources */,
+				6591D4F22B700CF200123125 /* NearbyCoffeePresenter.swift in Sources */,
+				657356A42B71304A0014BEA9 /* MenuViewController.swift in Sources */,
+				657356992B712C640014BEA9 /* MapPresenter.swift in Sources */,
+				656197B42B728D6700741AF3 /* PaymentModuleBuild.swift in Sources */,
+				656197A72B728CB500741AF3 /* PaymentViewController.swift in Sources */,
+				6591D4C02B6E5D9F00123125 /* Consts.swift in Sources */,
+				656197AB2B728CDD00741AF3 /* PaymentInteractor.swift in Sources */,
+				6591D4C92B6EAC8500123125 /* RegisterModuleBuilder.swift in Sources */,
+				657356B42B7160770014BEA9 /* MapObjectTapListener.swift in Sources */,
+				657356972B712C4C0014BEA9 /* MapViewController.swift in Sources */,
+				656197AD2B728CF200741AF3 /* PaymentPresenter.swift in Sources */,
+				657356B22B7151480014BEA9 /* backgroundCoffeeIconView.swift in Sources */,
+				6573569F2B712CA30014BEA9 /* MapProtocol.swift in Sources */,
+				6591D4CB2B6EAC9300123125 /* RegisterRouter.swift in Sources */,
+				6591D4B52B6D7AAC00123125 /* LoginModuleBuilder.swift in Sources */,
+				6591D4F02B700CE500123125 /* NearbyCoffeeRouter.swift in Sources */,
+				6591D4B72B6D7AC000123125 /* LoginProtocol.swift in Sources */,
+				6591D4AE2B6D7A6300123125 /* LoginInteractor.swift in Sources */,
+				6573569B2B712C760014BEA9 /* MapInteractor.swift in Sources */,
+				6591D4FF2B71101B00123125 /* LocationManager.swift in Sources */,
+				6591D4D72B6ED03F00123125 /* LocationModel.swift in Sources */,
+				6591D4B22B6D7A8300123125 /* LoginRouter.swift in Sources */,
+				6591D4F62B700D0C00123125 /* NearbyCoffeeViewController.swift in Sources */,
+				6591D4CD2B6EACA600123125 /* RegisterPresenter.swift in Sources */,
 				6591D48B2B6D5F2200123125 /* AppDelegate.swift in Sources */,
+				6591D4D12B6EBBF400123125 /* CustomButton.swift in Sources */,
+				6591D4D32B6EBC0800123125 /* CustomFilledButton.swift in Sources */,
+				6591D4E22B6FD4C600123125 /* TokenResponse.swift in Sources */,
 				6591D48D2B6D5F2200123125 /* SceneDelegate.swift in Sources */,
+				6591D4FA2B70BD5700123125 /* NearbyCoffeeCell.swift in Sources */,
+				6591D4E62B6FD63600123125 /* LocalStorage.swift in Sources */,
+				6591D4E92B6FD6E700123125 /* Optional+Extension.swift in Sources */,
+				6591D4B02B6D7A7200123125 /* LoginPresenter.swift in Sources */,
+				6591D4BC2B6E531100123125 /* CustomTextField.swift in Sources */,
+				657356AA2B71311C0014BEA9 /* MenuRouter.swift in Sources */,
+				6591D4F42B700CFE00123125 /* NearbyCoffeeInteractor.swift in Sources */,
+				656197AF2B728D2300741AF3 /* PeymentRouter.swift in Sources */,
+				657356AC2B7131430014BEA9 /* MenuProtocol.swift in Sources */,
+				657356A62B71308A0014BEA9 /* MenuPresenter.swift in Sources */,
+				656197B22B728D3F00741AF3 /* PaymentProtocol.swift in Sources */,
+				657356B62B71711E0014BEA9 /* CustomCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6591D4902B6D5F2200123125 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6591D4912B6D5F2200123125 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6591D4952B6D5F2300123125 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -203,7 +625,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -266,7 +688,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -287,6 +709,7 @@
 		};
 		6591D49C2B6D5F2300123125 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B22A1F35FC6CC061A4B0059 /* Pods-Coffee.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,10 +717,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QBXST696YP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Coffee/Info.plist;
+				INFOPLIST_FILE = Coffee/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,6 +730,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.arss.Coffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,6 +741,7 @@
 		};
 		6591D49D2B6D5F2300123125 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB030EB3D8799BEC30FBD3A /* Pods-Coffee.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,10 +749,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = QBXST696YP;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Coffee/Info.plist;
+				INFOPLIST_FILE = Coffee/Resources/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -335,6 +762,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.arss.Coffee;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
