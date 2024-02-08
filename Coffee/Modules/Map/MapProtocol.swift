@@ -8,11 +8,15 @@
 import Foundation
 
 protocol MapViewProtocol: AnyObject {
-    func dispalyError(_ message: String) 
+    var presenter: MapPresenterProtocol? { get set }
+    func dispalyError(_ message: String)
     func updateMapPlacemarket()
 }
 
 protocol MapPresenterProtocol: AnyObject {
+    var view: MapViewProtocol? { get set }
+    var interactor: MapInteractorProtocol { get set }
+    var router: MapRouterProtocol { get set }
     func didFail(with error: String)
     func didFetch()
     func fetchLocations()
@@ -22,10 +26,12 @@ protocol MapPresenterProtocol: AnyObject {
 }
 
 protocol MapInteractorProtocol: AnyObject {
+    var presenter: MapPresenterProtocol? { get set }
     var locations: [LocationModel] { get }
     func fetchCoffeeShopLocation()
 }
 
 protocol MapRouterProtocol: AnyObject {
+    var view: MapViewController? { get set }
     func navigationToMenu(coffeeShopID: String)
 }

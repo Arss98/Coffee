@@ -9,10 +9,10 @@ import Foundation
 
 final class MapPresenter: MapPresenterProtocol {
     weak var view: MapViewProtocol?
-    let interactor: MapInteractor
-    let router: MapRouter
+    var interactor: MapInteractorProtocol
+    var router: MapRouterProtocol
     
-    init(interactor: MapInteractor, router: MapRouter) {
+    init(interactor: MapInteractorProtocol, router: MapRouterProtocol) {
         self.interactor = interactor
         self.router = router
     }

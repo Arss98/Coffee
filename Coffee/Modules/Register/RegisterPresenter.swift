@@ -9,8 +9,8 @@ import Foundation
 
 final class RegisterPresenter: RegisterPresenterProtocol {
     weak var view: RegisterViewProtocol?
-    let interactor: RegisterInteractorProtocol
-    let router: RegisterRouterProtocol
+    var interactor: RegisterInteractorProtocol
+    var router: RegisterRouterProtocol
     
     init(interactor: RegisterInteractorProtocol, router: RegisterRouterProtocol) {
         self.interactor = interactor

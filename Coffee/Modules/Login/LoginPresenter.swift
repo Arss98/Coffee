@@ -7,10 +7,10 @@
 
 import Foundation
 
-final class LoginPresenter: LoginPresenterProtocol {
+final class LoginPresenter: LoginPresenterProtocol {    
     weak var view: LoginViewProtocol?
-    let interactor: LoginInteractorProtocol
-    let router: LoginRouterProtocol
+    var interactor: LoginInteractorProtocol
+    var router: LoginRouterProtocol
     
     init(interactor: LoginInteractorProtocol, router: LoginRouterProtocol) { 
         self.interactor = interactor

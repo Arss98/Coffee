@@ -26,7 +26,6 @@
 		657356AA2B71311C0014BEA9 /* MenuRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356A92B71311C0014BEA9 /* MenuRouter.swift */; };
 		657356AC2B7131430014BEA9 /* MenuProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356AB2B7131430014BEA9 /* MenuProtocol.swift */; };
 		657356AE2B71316E0014BEA9 /* MenuModuleBuild.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356AD2B71316E0014BEA9 /* MenuModuleBuild.swift */; };
-		657356B22B7151480014BEA9 /* backgroundCoffeeIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356B12B7151480014BEA9 /* backgroundCoffeeIconView.swift */; };
 		657356B42B7160770014BEA9 /* MapObjectTapListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356B32B7160770014BEA9 /* MapObjectTapListener.swift */; };
 		657356B62B71711E0014BEA9 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 657356B52B71711E0014BEA9 /* CustomCollectionCell.swift */; };
 		6591D48B2B6D5F2200123125 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6591D48A2B6D5F2200123125 /* AppDelegate.swift */; };
@@ -89,7 +88,6 @@
 		657356A92B71311C0014BEA9 /* MenuRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRouter.swift; sourceTree = "<group>"; };
 		657356AB2B7131430014BEA9 /* MenuProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuProtocol.swift; sourceTree = "<group>"; };
 		657356AD2B71316E0014BEA9 /* MenuModuleBuild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModuleBuild.swift; sourceTree = "<group>"; };
-		657356B12B7151480014BEA9 /* backgroundCoffeeIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = backgroundCoffeeIconView.swift; sourceTree = "<group>"; };
 		657356B32B7160770014BEA9 /* MapObjectTapListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapObjectTapListener.swift; sourceTree = "<group>"; };
 		657356B52B71711E0014BEA9 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
 		6591D4872B6D5F2200123125 /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -297,7 +295,6 @@
 				6591D4BB2B6E531100123125 /* CustomTextField.swift */,
 				6591D4D02B6EBBF400123125 /* CustomButton.swift */,
 				6591D4D22B6EBC0800123125 /* CustomFilledButton.swift */,
-				657356B12B7151480014BEA9 /* backgroundCoffeeIconView.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -541,7 +538,6 @@
 				657356B42B7160770014BEA9 /* MapObjectTapListener.swift in Sources */,
 				657356972B712C4C0014BEA9 /* MapViewController.swift in Sources */,
 				656197AD2B728CF200741AF3 /* PaymentPresenter.swift in Sources */,
-				657356B22B7151480014BEA9 /* backgroundCoffeeIconView.swift in Sources */,
 				6573569F2B712CA30014BEA9 /* MapProtocol.swift in Sources */,
 				6591D4CB2B6EAC9300123125 /* RegisterRouter.swift in Sources */,
 				6591D4B52B6D7AAC00123125 /* LoginModuleBuilder.swift in Sources */,

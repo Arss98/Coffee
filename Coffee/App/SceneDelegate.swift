@@ -16,7 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(windowScene: windowScene)
-        let vc = LoginModuleBuilder.build()
+        let vc = LocalStorage.shared.token != nil ? NearbyCoffeeModuleBuilder.build() : LoginModuleBuilder.build()
         let navigationController = UINavigationController(rootViewController: vc)
         window?.rootViewController = navigationController
         window?.makeKeyAndVisible()

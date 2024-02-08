@@ -13,7 +13,7 @@ final class NearbyCoffeeViewController: UIViewController {
     
     private let openMapScreenButton = CustomFilledButton(title: Consts.UIConsts.openMapButtonTitle)
     private let listNearbyCoffee = UITableView()
-        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initialize()
@@ -28,7 +28,13 @@ extension NearbyCoffeeViewController: NearbyCoffeeViewProtocol {
     }
     
     func dispalyError(_ message: String) {
-        errorAlert(message: message)
+        arrorAlertNoAutorization(message: message) {
+            self.replaceRootViewControllerWithLogin()
+        }
+    }
+    
+    func replaceRootViewControllerWithLogin() {
+        presenter?.performUnauthorizedAccessFlow()
     }
 }
 
@@ -94,7 +100,7 @@ private extension NearbyCoffeeViewController {
             make.bottom.equalTo(openMapScreenButton.snp.top)
         }
     }
-   
+    
     @objc func navigationToMap() {
         presenter?.navigationToMap()
     }

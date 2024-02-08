@@ -20,18 +20,9 @@ struct LocalStorage {
     
     private init() {}
     
-    var isAuthorization: Bool {
-        get {
-            userDefaults.bool(forKey: UserStorageKey.isAuthorization.rawValue)
-        }
-        set {
-            userDefaults.set(newValue, forKey: UserStorageKey.isAuthorization.rawValue)
-        }
-    }
-    
     var token: String? {
         get {
-            userDefaults.string(forKey: UserStorageKey.token.rawValue).orEmpty
+            userDefaults.string(forKey: UserStorageKey.token.rawValue)
         }
         set {
             userDefaults.set(newValue, forKey: UserStorageKey.token.rawValue)

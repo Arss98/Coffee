@@ -8,10 +8,14 @@
 import Foundation
 
 protocol LoginViewProtocol: AnyObject {
+    var presenter: LoginPresenterProtocol? { get set }
     func displayError(_ message: String)
 }
 
 protocol LoginPresenterProtocol: AnyObject {
+    var view: LoginViewProtocol? { get set }
+    var interactor: LoginInteractorProtocol { get set }
+    var router: LoginRouterProtocol { get set }
     func didTapRegister()
     func openNearbyCoffee()
     func didFail(with error: String)
@@ -19,10 +23,12 @@ protocol LoginPresenterProtocol: AnyObject {
 }
 
 protocol LoginInteractorProtocol: AnyObject {
+    var presenter: LoginPresenterProtocol? { get set }
     func performLoginRequest(withData userData: (login: String, password: String))
 }
 
 protocol LoginRouterProtocol: AnyObject {
+    var view: LoginViewController? { get set }
     func navigationToRegistration()
     func navigationToNearbyCoffee()
 }

@@ -47,10 +47,10 @@ final class ApiService: ApiServiceProtocol {
         let baseURL = "http://147.78.66.203:3210/auth/"
         let endpoint = isRegistering ? "login" : "register"
         let url = baseURL + endpoint
-
+        
         let parameters: [String: String] = ["login": login, "password": password]
         let headers: HTTPHeaders = ["accept": "application/json", "Content-Type": "application/json"]
-
+        
         AF.request(url, method: .post, parameters: parameters, encoding: JSONEncoding.default, headers: headers)
             .validate()
             .responseDecodable(of: TokenResponse.self) { response in
@@ -62,5 +62,5 @@ final class ApiService: ApiServiceProtocol {
                 }
             }
     }
-
+    
 }

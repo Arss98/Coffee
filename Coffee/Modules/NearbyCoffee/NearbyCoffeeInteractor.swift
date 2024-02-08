@@ -5,7 +5,7 @@
 //  Created by  Arsen Dadaev on 04.02.2024.
 //
 
-import Foundation
+import UIKit
 
 final class NearbyCoffeeInteractor: NearbyCoffeeInteractorProtocol {
     weak var presenter: NearbyCoffeePresenterProtocol?

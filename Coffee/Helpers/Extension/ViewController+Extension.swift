@@ -8,6 +8,16 @@
 import UIKit
 
 extension UIViewController {
+    func arrorAlertNoAutorization(message: String, action: @escaping () -> Void) {
+        let alert = UIAlertController(title: Consts.UIConsts.errorAlertTitle, message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: Consts.UIConsts.alertOkButtonTitle, style: .default) { _ in
+            action()
+        }
+        
+        alert.addAction(okAction)
+        present(alert, animated: true)
+    }
+    
     func errorAlert(message: String) {
         let alert = UIAlertController(title: Consts.UIConsts.errorAlertTitle, message: message, preferredStyle: .alert)
         let action = UIAlertAction(title: Consts.UIConsts.alertOkButtonTitle, style: .default)

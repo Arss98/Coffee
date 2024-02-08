@@ -10,10 +10,10 @@ import Foundation
 final class MenuPresenter: MenuPresenterProtocol {
     weak var view: MenuViewProtocol?
     var coffeeItems: [Int: Int] = [:]
-    let interactor: MenuInteractor
-    let router: MenuRouter
+    var interactor: MenuInteractorProtocol
+    var router: MenuRouterProtocol
     
-    init(interactor: MenuInteractor, router: MenuRouter) {
+    init(interactor: MenuInteractorProtocol, router: MenuRouterProtocol) {
         self.interactor = interactor
         self.router = router
     }

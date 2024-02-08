@@ -21,4 +21,10 @@ final class NearbyCoffeeRouter: NearbyCoffeeRouterProtocol {
         
         view?.navigationController?.pushViewController(menuVC, animated: true)
     }
+    
+    func replaceRootViewControllerWithLogin() {
+        let loginVC = LoginModuleBuilder.build()
+        
+        view?.navigationController?.setViewControllers([loginVC], animated: true)
+    }
 }

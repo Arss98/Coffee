@@ -9,8 +9,8 @@ import Foundation
 
 final class NearbyCoffeePresenter: NearbyCoffeePresenterProtocol {
     weak var view: NearbyCoffeeViewProtocol?
-    let interactor: NearbyCoffeeInteractorProtocol
-    let router: NearbyCoffeeRouterProtocol
+    var interactor: NearbyCoffeeInteractorProtocol
+    var router: NearbyCoffeeRouterProtocol
     
     init(interactor: NearbyCoffeeInteractorProtocol, router: NearbyCoffeeRouterProtocol) {
         self.interactor = interactor
@@ -47,5 +47,9 @@ final class NearbyCoffeePresenter: NearbyCoffeePresenterProtocol {
     
     func navigationToMenu(coffeeShopID: String) {
         router.navigationToMenu(coffeeShopID: coffeeShopID)
+    }
+    
+    func performUnauthorizedAccessFlow() {
+        router.replaceRootViewControllerWithLogin()
     }
 }

@@ -16,7 +16,6 @@ final class LoginInteractor: LoginInteractorProtocol {
             switch result {
             case .success(let tokenResponse):
                 LocalStorage.shared.token = tokenResponse.token
-                LocalStorage.shared.isAuthorization = true
                 self.presenter?.openNearbyCoffee()
             case .failure(let error):
                 self.presenter?.didFail(with: error.localizedDescription)
